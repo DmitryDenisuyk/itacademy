@@ -8,7 +8,7 @@ const obj = {
     bar: function bar(format) {
         return moment().format(format);  
     },
-    b: 51
+    b: 5
 };
 
 module.exports = obj;
