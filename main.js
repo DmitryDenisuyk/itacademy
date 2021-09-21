@@ -5,5 +5,5 @@ function foo() {
     date.bar
     console.log(dt, date.b);
 }
-
+  
 foo();
