@@ -23,5 +23,5 @@ a / s;  //NaN
 //task 4
 
 Boolean(a);  //true
-String(b);   //'123'
-Number(s);   //123
+String(b);   //'true'
+Number(s);   //NaN
