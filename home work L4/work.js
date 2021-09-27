@@ -4,7 +4,7 @@ s = "string";
 
 //task 1
 
-b + a; // 2
+b + a;  // 2
 b + s;  //truestring
 a + s;  //1string
 
@@ -12,13 +12,13 @@ a + s;  //1string
 
 b * a;  //1
 b * s;  //NaN
-a * s; //NaN
+a * s;  //NaN
 
 //task 3
 
 b / a;  //1
 b / s;  //NaN
-a / s; //NaN
+a / s;  //NaN
 
 //task 4
 
