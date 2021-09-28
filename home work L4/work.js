@@ -4,24 +4,31 @@ s = "string";
 
 //task 1
 
-b + a;  // 2
-b + s;  //truestring
-a + s;  //1string
+console.log();
+console.log(b + a);  // 2
+console.log(b + s); //truestring
+console.log(s + a);  //string1
 
 //task 2
 
-b * a;  //1
-b * s;  //NaN
-a * s;  //NaN
+console.log();
+console.log(b * a);  //1
+console.log(b * s);  //NaN
+console.log(b * s);  //NaN
 
 //task 3
 
-b / a;  //1
-b / s;  //NaN
-a / s;  //NaN
+console.log();
+console.log(b / a);  //1
+console.log(b / s);  //NaN
+console.log(s / a);  //NaN
 
 //task 4
 
-Boolean(a);  //true
-String(b);   //'true'
-Number(s);   //NaN
+console.log();
+console.log(Boolean(a));
+console.log(String(b));
+console.log(Number(s));
+
+
+ 
