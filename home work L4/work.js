@@ -26,9 +26,9 @@ console.log(s / a);  //NaN
 //task 4
 
 console.log();
-console.log(Boolean(a));
-console.log(String(b));
-console.log(Number(s));
+console.log(Boolean(a)); //true
+console.log(String(b));  //'true'
+console.log(Number(s));  //NaN
 
 
  
