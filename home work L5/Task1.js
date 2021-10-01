@@ -6,7 +6,7 @@ function getDice(min, max) {
   let firstPlayerKicks = 0;
   let secondPlayerKicks = 0;
   for(var i =0; i < 3; i++){
-    firstPlayerKicks = firstPlayerKicks + kick('Fisrt', i + 1);       
+    firstPlayerKicks = firstPlayerKicks + kick('First', i + 1);       
     secondPlayerKicks = secondPlayerKicks + kick('Second', i + 1);
   }
 
@@ -14,19 +14,17 @@ function getDice(min, max) {
   console.log('Summ of DICE of 2nd player', secondPlayerKicks);
 
   if (firstPlayerKicks == secondPlayerKicks) {
-    console.log('Draw');
+  console.log('Draw');
   } if (firstPlayerKicks > secondPlayerKicks) {
     console.log('1st player win!');
   } if (secondPlayerKicks > firstPlayerKicks) {
     console.log('2nd player win!');
   }
 
-  function kick(playErName, kickNumber){
+  function kick(playerName, kickNumber){
     let st1 = getDice(1,6);
-    console.log( playErName, 'player', kickNumber, 'DICE -', st1);
+    console.log( playerName, 'player', kickNumber, 'DICE -', st1);
     return st1;
-      
-    
   }
 
 
