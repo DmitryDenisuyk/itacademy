@@ -12,10 +12,10 @@ function num13thFri(mass){
     return count;                            
 }
 
-let ffgdgdfgdgf = [];
+let qwe = [];
 
 for (let i = 2000; i < new Date().getFullYear(); i++){
-    ffgdgdfgdgf.push(i);
+    qwe.push(i);
 } 
 
-console.log(num13thFri(ffgdgdfgdgf)); 
+console.log(num13thFri(qwe)); 
